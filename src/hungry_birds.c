@@ -58,6 +58,7 @@ void* parent_function(void* args) {
         dish = dish_capacity;
 
         printf("> MAMA BIRD: THE DISH IS FILLED WITH WORMS, COME EAT BABIES!\n");
+        printf("> MAMA BIRD: IM GOING BACK TO SLEEP\n");
 
         sem_post(&mutex); // let babies access dish again.
     }
